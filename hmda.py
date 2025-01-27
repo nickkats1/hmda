@@ -16,7 +16,7 @@ warnings.filterwarnings("ignore")
 
 
 
-df = pd.read_csv('C:/hmda/hmda.txt',delimiter='\t')
+df = pd.read_csv('https://raw.githubusercontent.com/nickkats1/hmda/refs/heads/main/hmda.txt',delimiter='\t')
 df.isnull().sum()
 df.duplicated().sum()
 df.nunique()
